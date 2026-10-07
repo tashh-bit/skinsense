@@ -1,0 +1,42 @@
+{
+    "name":  "skinsenseai",
+    "private":  true,
+    "version":  "0.0.0",
+    "type":  "module",
+    "scripts":  {
+                    "dev":  "vite",
+                    "build":  "tsc -b \u0026\u0026 vite build",
+                    "lint":  "oxlint",
+                    "preview":  "vite preview",
+                    "check:images":  "node scripts/check_images.cjs"
+                },
+    "dependencies":  {
+                         "@types/bcryptjs":  "^2.4.6",
+                         "@types/canvas-confetti":  "^1.9.0",
+                         "@types/cookie":  "^0.6.0",
+                         "@types/jsonwebtoken":  "^9.0.10",
+                         "bcryptjs":  "^3.0.3",
+                         "canvas-confetti":  "^1.9.4",
+                         "clsx":  "^2.1.1",
+                         "cookie":  "^2.0.1",
+                         "framer-motion":  "^14.0.0",
+                         "jsonwebtoken":  "^9.0.3",
+                         "lucide-react":  "^1.52.0",
+                         "react":  "^19.2.8",
+                         "react-dom":  "^19.2.8",
+                         "sharp":  "^0.35.5",
+                         "tailwind-merge":  "^3.7.0"
+                     },
+    "devDependencies":  {
+                            "@types/node":  "^24.13.3",
+                            "@types/react":  "^19.2.18",
+                            "@types/react-dom":  "^19.2.7",
+                            "@vitejs/plugin-react":  "^6.1.1",
+                            "autoprefixer":  "^10.6.1",
+                            "oxlint":  "^1.81.0",
+                            "postcss":  "^8.5.28",
+                            "tailwindcss":  "^3.4.17",
+                            "typescript":  "~6.0.2",
+                            "vite":  "^8.3.0"
+                        }
+}

@@ -1,0 +1,935 @@
+[
+  {
+    "id": "prod-1",
+    "name": "Oat Extract 6% Gentle Cleanser",
+    "brand": "Minimalist",
+    "category": "cleanser",
+    "price_inr": 299,
+    "size": "120 ml",
+    "tier": "affordable",
+    "key_ingredients": [
+      "Oat Extract 6%",
+      "Hyaluronic Acid",
+      "Sulfate-Free Surfactants"
+    ],
+    "suits_conditions": [
+      "eczema",
+      "dryness",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Dry",
+      "Sensitive",
+      "Balanced"
+    ],
+    "image": "/products/prod-1.png",
+    "product_url": "https://www.nykaa.com/minimalist-b12-oat-extract-6-5-gentle-cleanser/p/13247854",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-2",
+    "name": "Kind to Skin Refreshing Facial Wash",
+    "brand": "Simple",
+    "category": "cleanser",
+    "price_inr": 385,
+    "size": "150 ml",
+    "tier": "affordable",
+    "key_ingredients": [
+      "Pro-Vitamin B5",
+      "Vitamin E",
+      "Triple Purified Water"
+    ],
+    "suits_conditions": [
+      "acne",
+      "dryness",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Sensitive",
+      "Balanced",
+      "Combination"
+    ],
+    "image": "/products/prod-2.png",
+    "product_url": "https://www.nykaa.com/simple-kind-to-skin-refreshing-facial-wash/p/390982",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-3",
+    "name": "1% Salicylic Acid Gel Face Wash",
+    "brand": "The Derma Co",
+    "category": "cleanser",
+    "price_inr": 299,
+    "size": "100 ml",
+    "tier": "affordable",
+    "key_ingredients": [
+      "Salicylic Acid 1%",
+      "Witch Hazel",
+      "Willow Bark"
+    ],
+    "suits_conditions": [
+      "acne",
+      "fungal_infection"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination"
+    ],
+    "image": "/products/prod-3.png",
+    "product_url": "https://thedermaco.com/product/1-salicylic-acid-gel-face-wash-100-ml",
+    "price_checked_date": "October 2026",
+    "store": "The Derma Co"
+  },
+  {
+    "id": "prod-4",
+    "name": "Foaming Facial Cleanser for Normal to Oily Skin",
+    "brand": "CeraVe",
+    "category": "cleanser",
+    "price_inr": 1050,
+    "size": "236 ml",
+    "tier": "mid",
+    "key_ingredients": [
+      "Ceramides (1, 3, 6-II)",
+      "Niacinamide",
+      "Hyaluronic Acid"
+    ],
+    "suits_conditions": [
+      "acne",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Balanced"
+    ],
+    "image": "/products/prod-4.png",
+    "product_url": "https://www.nykaa.com/cerave-foaming-cleanser-for-normal-to-oily-skin/p/13247890",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-5",
+    "name": "Sensibio Gel Moussant Soothing Cleanser",
+    "brand": "Bioderma",
+    "category": "cleanser",
+    "price_inr": 899,
+    "size": "200 ml",
+    "tier": "mid",
+    "key_ingredients": [
+      "Coco-Glucoside",
+      "Glyceryl Oleate",
+      "Mannitol & Xylitol"
+    ],
+    "suits_conditions": [
+      "eczema",
+      "dryness",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Sensitive",
+      "Dry",
+      "Balanced"
+    ],
+    "image": "/products/prod-5.png",
+    "product_url": "https://www.nykaa.com/bioderma-sensibio-gel-moussant/p/279899",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-6",
+    "name": "Gentle Skin Cleanser for Dry to Normal Sensitive Skin",
+    "brand": "Cetaphil",
+    "category": "cleanser",
+    "price_inr": 670,
+    "size": "250 ml",
+    "tier": "mid",
+    "key_ingredients": [
+      "Niacinamide (Vitamin B3)",
+      "Panthenol (Pro-Vitamin B5)",
+      "Hydrating Glycerin"
+    ],
+    "suits_conditions": [
+      "dryness",
+      "eczema",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Dry",
+      "Sensitive",
+      "Balanced"
+    ],
+    "image": "/products/prod-6.png",
+    "product_url": "https://www.nykaa.com/cetaphil-gentle-skin-cleanser/p/20993",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-7",
+    "name": "All About Clean Liquid Facial Soap Mild",
+    "brand": "Clinique",
+    "category": "cleanser",
+    "price_inr": 2300,
+    "size": "200 ml",
+    "tier": "premium",
+    "key_ingredients": [
+      "Sodium Hyaluronate",
+      "Sucrose",
+      "Caffeine"
+    ],
+    "suits_conditions": [
+      "dryness",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Dry",
+      "Balanced",
+      "Combination"
+    ],
+    "image": "/products/prod-7.png",
+    "product_url": "https://www.clinique.in/product/1673/4703/skincare/cleansers/all-about-clean-liquid-facial-soap",
+    "price_checked_date": "October 2026",
+    "store": "Clinique India"
+  },
+  {
+    "id": "prod-8",
+    "name": "Ultra Facial Cleanser with Squalane",
+    "brand": "Kiehl's",
+    "category": "cleanser",
+    "price_inr": 2150,
+    "size": "150 ml",
+    "tier": "premium",
+    "key_ingredients": [
+      "Squalane",
+      "Apricot Kernel Oil",
+      "Avocado Oil"
+    ],
+    "suits_conditions": [
+      "dryness",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Dry",
+      "Balanced",
+      "Sensitive"
+    ],
+    "image": "/products/prod-8.png",
+    "product_url": "https://kiehls.in/ultra-facial-cleanser.html",
+    "price_checked_date": "October 2026",
+    "store": "Kiehl's India"
+  },
+  {
+    "id": "prod-9",
+    "name": "10% Niacinamide Serum with Zinc PCA",
+    "brand": "Minimalist",
+    "category": "serum",
+    "price_inr": 599,
+    "size": "30 ml",
+    "tier": "affordable",
+    "key_ingredients": [
+      "Niacinamide 10%",
+      "Zinc PCA 1%",
+      "EUK-134 Antioxidant"
+    ],
+    "suits_conditions": [
+      "acne",
+      "pigmentation",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Balanced"
+    ],
+    "image": "/products/prod-9.png",
+    "product_url": "https://www.nykaa.com/minimalist-10-niacinamide-face-serum/p/1067988",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-10",
+    "name": "10% Vitamin C Serum with 5% Niacinamide",
+    "brand": "The Derma Co",
+    "category": "serum",
+    "price_inr": 649,
+    "size": "30 ml",
+    "tier": "affordable",
+    "key_ingredients": [
+      "3-O-Ethyl Ascorbic Acid 10%",
+      "Niacinamide 5%",
+      "Ferulic Acid"
+    ],
+    "suits_conditions": [
+      "pigmentation",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Balanced",
+      "Combination",
+      "Oily"
+    ],
+    "image": "/products/prod-10.png",
+    "product_url": "https://thedermaco.com/product/10-vitamin-c-face-serum-with-vitamin-c-5-niacinamide-ferulic-acid-30-ml",
+    "price_checked_date": "October 2026",
+    "store": "The Derma Co"
+  },
+  {
+    "id": "prod-11",
+    "name": "15% Vitamin C Face Serum with Mandarin",
+    "brand": "Plum",
+    "category": "serum",
+    "price_inr": 790,
+    "size": "30 ml",
+    "tier": "affordable",
+    "key_ingredients": [
+      "Ethyl Ascorbic Acid 15%",
+      "Japanese Mandarin Extract",
+      "Kakadu Plum"
+    ],
+    "suits_conditions": [
+      "pigmentation",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Balanced",
+      "Combination",
+      "Dry"
+    ],
+    "image": "/products/prod-11.png",
+    "product_url": "https://plumgoodness.com/products/15-vitamin-c-face-serum-with-mandarin-for-glowing-skin-quick-absorbing",
+    "price_checked_date": "October 2026",
+    "store": "Plum Store"
+  },
+  {
+    "id": "prod-12",
+    "name": "Resurfacing Retinol Serum with Ceramides",
+    "brand": "CeraVe",
+    "category": "serum",
+    "price_inr": 1550,
+    "size": "30 ml",
+    "tier": "mid",
+    "key_ingredients": [
+      "Encapsulated Retinol",
+      "Licorice Root Extract",
+      "Niacinamide",
+      "3 Essential Ceramides"
+    ],
+    "suits_conditions": [
+      "acne",
+      "pigmentation"
+    ],
+    "skin_types": [
+      "Combination",
+      "Oily",
+      "Balanced"
+    ],
+    "image": "/products/prod-12.png",
+    "product_url": "https://www.nykaa.com/cerave-resurfacing-retinol-serum/p/13247895",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-13",
+    "name": "Hydrabio Serum Concentrated Moisture Booster",
+    "brand": "Bioderma",
+    "category": "serum",
+    "price_inr": 1950,
+    "size": "40 ml",
+    "tier": "mid",
+    "key_ingredients": [
+      "Aquagenium Patent",
+      "Hyaluronic Acid",
+      "Niacinamide",
+      "Apple Seed Extract"
+    ],
+    "suits_conditions": [
+      "dryness",
+      "eczema",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Dry",
+      "Sensitive",
+      "Dehydrated"
+    ],
+    "image": "/products/prod-13.png",
+    "product_url": "https://www.nykaa.com/bioderma-hydrabio-serum/p/279895",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-14",
+    "name": "Skin Perfecting 2% BHA Liquid Exfoliant",
+    "brand": "Paula's Choice",
+    "category": "serum",
+    "price_inr": 3100,
+    "size": "118 ml",
+    "tier": "premium",
+    "key_ingredients": [
+      "Salicylic Acid 2%",
+      "Green Tea Leaf Extract",
+      "Methylpropanediol"
+    ],
+    "suits_conditions": [
+      "acne",
+      "fungal_infection"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Acne-Prone"
+    ],
+    "image": "/products/prod-14.png",
+    "product_url": "https://www.nykaa.com/paula-s-choice-skin-perfecting-2percent-bha-liquid-exfoliant/p/522818",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-15",
+    "name": "Advanced Night Repair Synchronized Recovery Complex",
+    "brand": "Estee Lauder",
+    "category": "serum",
+    "price_inr": 6500,
+    "size": "30 ml",
+    "tier": "premium",
+    "key_ingredients": [
+      "Bifida Ferment Lysate",
+      "Tripeptide-32",
+      "Sodium Hyaluronate"
+    ],
+    "suits_conditions": [
+      "dryness",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Dry",
+      "Balanced",
+      "Mature"
+    ],
+    "image": "/products/prod-15.png",
+    "product_url": "https://www.esteelauder.in/product/689/77491/product-catalog/skincare/repair-serums/advanced-night-repair-synchronized-multi-recovery-complex",
+    "price_checked_date": "October 2026",
+    "store": "Estee Lauder India"
+  },
+  {
+    "id": "prod-16",
+    "name": "0.3% Ceramide Deep Barrier Repair Cream",
+    "brand": "Minimalist",
+    "category": "moisturizer",
+    "price_inr": 599,
+    "size": "50 g",
+    "tier": "affordable",
+    "key_ingredients": [
+      "Ceramides (0.3% Pure)",
+      "Madecassoside",
+      "Aminobutyric Acid",
+      "Bisabolol"
+    ],
+    "suits_conditions": [
+      "dryness",
+      "eczema",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Dry",
+      "Sensitive",
+      "Compromised"
+    ],
+    "image": "/products/prod-16.png",
+    "product_url": "https://www.nykaa.com/minimalist-0-3-ceramides-moisturizer-for-dry-skin/p/4523621",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-17",
+    "name": "Ceramide & Hyaluronic Barrier Repair Face Cream",
+    "brand": "Dot & Key",
+    "category": "moisturizer",
+    "price_inr": 395,
+    "size": "100 g",
+    "tier": "affordable",
+    "key_ingredients": [
+      "5 Essential Ceramides",
+      "Hyaluronic Acid",
+      "Probiotics"
+    ],
+    "suits_conditions": [
+      "dryness",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Dry",
+      "Dehydrated",
+      "Combination"
+    ],
+    "image": "/products/prod-17.png",
+    "product_url": "https://www.dotandkey.com/products/ceramide-hyaluronic-barrier-repair-face-cream",
+    "price_checked_date": "October 2026",
+    "store": "Dot & Key"
+  },
+  {
+    "id": "prod-18",
+    "name": "Hydro Boost Hyaluronic Acid Water Gel",
+    "brand": "Neutrogena",
+    "category": "moisturizer",
+    "price_inr": 1050,
+    "size": "50 g",
+    "tier": "affordable",
+    "key_ingredients": [
+      "Purified Hyaluronic Acid",
+      "Amino Acids",
+      "Electrolytes"
+    ],
+    "suits_conditions": [
+      "dryness",
+      "acne"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Dehydrated"
+    ],
+    "image": "/products/prod-18.png",
+    "product_url": "https://www.nykaa.com/neutrogena-hydro-boost-water-gel/p/259487",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-19",
+    "name": "Moisturizing Cream with 3 Essential Ceramides",
+    "brand": "CeraVe",
+    "category": "moisturizer",
+    "price_inr": 1350,
+    "size": "340 g",
+    "tier": "mid",
+    "key_ingredients": [
+      "Ceramides 1, 3, 6-II",
+      "Hyaluronic Acid",
+      "MVE Delivery Technology"
+    ],
+    "suits_conditions": [
+      "eczema",
+      "dryness",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Dry",
+      "Very Dry",
+      "Sensitive"
+    ],
+    "image": "/products/prod-19.png",
+    "product_url": "https://www.nykaa.com/cerave-moisturising-cream-for-dry-to-very-dry-skin/p/13247900",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-20",
+    "name": "Atoderm Creme Ultra-Nourishing Daily Cream",
+    "brand": "Bioderma",
+    "category": "moisturizer",
+    "price_inr": 799,
+    "size": "200 ml",
+    "tier": "mid",
+    "key_ingredients": [
+      "Skin Protect Complex",
+      "Niacinamide",
+      "Omega Fatty Acids"
+    ],
+    "suits_conditions": [
+      "eczema",
+      "dryness",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Dry",
+      "Very Dry",
+      "Sensitive"
+    ],
+    "image": "/products/prod-20.png",
+    "product_url": "https://www.nykaa.com/bioderma-atoderm-creme-ultra/p/782299",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-21",
+    "name": "Clear Face Care Gel (pH 5.5)",
+    "brand": "Sebamed",
+    "category": "moisturizer",
+    "price_inr": 475,
+    "size": "50 ml",
+    "tier": "mid",
+    "key_ingredients": [
+      "Hyaluronic Acid",
+      "Aloe Vera",
+      "Allantoin",
+      "Panthenol"
+    ],
+    "suits_conditions": [
+      "acne",
+      "fungal_infection"
+    ],
+    "skin_types": [
+      "Oily",
+      "Acne-Prone",
+      "Sensitive"
+    ],
+    "image": "/products/prod-21.png",
+    "product_url": "https://www.nykaa.com/sebamed-clear-face-care-gel/p/15927",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-22",
+    "name": "Moisture Surge 100H Auto-Replenishing Hydrator",
+    "brand": "Clinique",
+    "category": "moisturizer",
+    "price_inr": 3200,
+    "size": "50 ml",
+    "tier": "premium",
+    "key_ingredients": [
+      "Aloe Bio-Ferment",
+      "Hyaluronic Acid Complex",
+      "Activated Aloe Water"
+    ],
+    "suits_conditions": [
+      "dryness",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "All Skin Types",
+      "Dehydrated"
+    ],
+    "image": "/products/prod-22.png",
+    "product_url": "https://www.clinique.in/product/1687/83690/skincare/moisturizers/moisture-surge-100h-auto-replenishing-hydrator",
+    "price_checked_date": "October 2026",
+    "store": "Clinique India"
+  },
+  {
+    "id": "prod-23",
+    "name": "Ultra Facial Cream 24-Hour Hydration",
+    "brand": "Kiehl's",
+    "category": "moisturizer",
+    "price_inr": 3500,
+    "size": "50 ml",
+    "tier": "premium",
+    "key_ingredients": [
+      "Glacial Glycoprotein",
+      "Olive-Derived Squalane"
+    ],
+    "suits_conditions": [
+      "dryness",
+      "eczema",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Dry",
+      "Balanced",
+      "Sensitive"
+    ],
+    "image": "/products/prod-23.png",
+    "product_url": "https://kiehls.in/ultra-facial-cream.html",
+    "price_checked_date": "October 2026",
+    "store": "Kiehl's India"
+  },
+  {
+    "id": "prod-24",
+    "name": "SPF 50 PA++++ Multi-Vitamin Sunscreen",
+    "brand": "Minimalist",
+    "category": "sunscreen",
+    "price_inr": 399,
+    "size": "50 g",
+    "tier": "affordable",
+    "key_ingredients": [
+      "Uvinul A Plus",
+      "Avobenzone",
+      "Niacinamide",
+      "Vitamin B5"
+    ],
+    "suits_conditions": [
+      "pigmentation",
+      "acne",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "All Skin Types",
+      "Balanced",
+      "Combination"
+    ],
+    "image": "/products/prod-24.png",
+    "product_url": "https://www.nykaa.com/minimalist-spf-50-sunscreen/p/2799981",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-25",
+    "name": "Watermelon Cooling Hyaluronic Sunscreen SPF 50+ PA+++",
+    "brand": "Dot & Key",
+    "category": "sunscreen",
+    "price_inr": 495,
+    "size": "80 g",
+    "tier": "affordable",
+    "key_ingredients": [
+      "Watermelon Extract",
+      "Hyaluronic Acid",
+      "Titanium Dioxide"
+    ],
+    "suits_conditions": [
+      "dryness",
+      "acne"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Sensitive"
+    ],
+    "image": "/products/prod-25.png",
+    "product_url": "https://www.dotandkey.com/products/watermelon-hyaluronic-cooling-sunscreen-spf-50-pa",
+    "price_checked_date": "October 2026",
+    "store": "Dot & Key"
+  },
+  {
+    "id": "prod-26",
+    "name": "1% Hyaluronic Sunscreen Aqua Gel SPF 50 PA++++",
+    "brand": "The Derma Co",
+    "category": "sunscreen",
+    "price_inr": 499,
+    "size": "50 g",
+    "tier": "affordable",
+    "key_ingredients": [
+      "Hyaluronic Acid 1%",
+      "Vitamin E",
+      "Titanium Dioxide"
+    ],
+    "suits_conditions": [
+      "acne",
+      "pigmentation"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Acne-Prone"
+    ],
+    "image": "/products/prod-26.png",
+    "product_url": "https://thedermaco.com/product/1-hyaluronic-sunscreen-aqua-gel",
+    "price_checked_date": "October 2026",
+    "store": "The Derma Co"
+  },
+  {
+    "id": "prod-27",
+    "name": "Ultra Matte Dry Touch Sunscreen Gel SPF 50 PA++++",
+    "brand": "Re'equil",
+    "category": "sunscreen",
+    "price_inr": 780,
+    "size": "50 g",
+    "tier": "mid",
+    "key_ingredients": [
+      "Octinoxate",
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Physalis Angulata"
+    ],
+    "suits_conditions": [
+      "acne",
+      "pigmentation"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Sensitive"
+    ],
+    "image": "/products/prod-27.png",
+    "product_url": "https://www.reequil.com/products/ultra-matte-dry-touch-sunscreen-gel-spf-50-pa",
+    "price_checked_date": "October 2026",
+    "store": "Re'equil Store"
+  },
+  {
+    "id": "prod-28",
+    "name": "Sun SPF 50+ Very High Protection Light Gel",
+    "brand": "Cetaphil",
+    "category": "sunscreen",
+    "price_inr": 1299,
+    "size": "50 ml",
+    "tier": "mid",
+    "key_ingredients": [
+      "Broad Spectrum UV Filters",
+      "Vitamin E",
+      "Water Resistant Base"
+    ],
+    "suits_conditions": [
+      "eczema",
+      "dryness",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Sensitive",
+      "Dry",
+      "Balanced"
+    ],
+    "image": "/products/prod-28.png",
+    "product_url": "https://www.nykaa.com/cetaphil-sun-spf-50plus-light-gel/p/527787",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-29",
+    "name": "Photoderm Max Aquafluide SPF 50+",
+    "brand": "Bioderma",
+    "category": "sunscreen",
+    "price_inr": 1850,
+    "size": "40 ml",
+    "tier": "mid",
+    "key_ingredients": [
+      "Cellular Bioprotection Patent",
+      "Tinosorb M",
+      "Dry Touch Mat Powder"
+    ],
+    "suits_conditions": [
+      "pigmentation",
+      "acne",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Combination",
+      "Oily",
+      "Sensitive"
+    ],
+    "image": "/products/prod-29.png",
+    "product_url": "https://www.nykaa.com/bioderma-photoderm-max-aquafluide-spf-50/p/279905",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-30",
+    "name": "Resist Super-Light Daily Wrinkle Defense SPF 30",
+    "brand": "Paula's Choice",
+    "category": "sunscreen",
+    "price_inr": 3350,
+    "size": "60 ml",
+    "tier": "premium",
+    "key_ingredients": [
+      "Zinc Oxide 13%",
+      "Resveratrol",
+      "Epigallocatechin Gallate (EGCG)"
+    ],
+    "suits_conditions": [
+      "pigmentation",
+      "acne",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Normal"
+    ],
+    "image": "/products/prod-30.png",
+    "product_url": "https://www.nykaa.com/paula-s-choice-resist-super-light-wrinkle-defense-spf-30/p/522822",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-31",
+    "name": "2% Salicylic Acid Face Serum with LHA",
+    "brand": "Minimalist",
+    "category": "treatment",
+    "price_inr": 549,
+    "size": "30 ml",
+    "tier": "affordable",
+    "key_ingredients": [
+      "Salicylic Acid 2%",
+      "LHA (Capryloyl Salicylic Acid)",
+      "Oligopeptide-10"
+    ],
+    "suits_conditions": [
+      "acne",
+      "fungal_infection"
+    ],
+    "skin_types": [
+      "Oily",
+      "Acne-Prone",
+      "Combination"
+    ],
+    "image": "/products/prod-31.png",
+    "product_url": "https://www.nykaa.com/minimalist-2-salicylic-acid-face-serum/p/1067986",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-32",
+    "name": "2% Kojic Acid Face Cream for Pigmentation",
+    "brand": "The Derma Co",
+    "category": "treatment",
+    "price_inr": 499,
+    "size": "30 g",
+    "tier": "affordable",
+    "key_ingredients": [
+      "Kojic Acid 2%",
+      "1% Alpha Arbutin",
+      "Niacinamide 1%"
+    ],
+    "suits_conditions": [
+      "pigmentation"
+    ],
+    "skin_types": [
+      "All Skin Types",
+      "Pigmentation-Prone"
+    ],
+    "image": "/products/prod-32.png",
+    "product_url": "https://thedermaco.com/product/2-kojic-acid-face-cream-with-1-l-ascorbic-acid-30-g",
+    "price_checked_date": "October 2026",
+    "store": "The Derma Co"
+  },
+  {
+    "id": "prod-33",
+    "name": "Good Genes All-In-One Lactic Acid Treatment",
+    "brand": "Sunday Riley",
+    "category": "treatment",
+    "price_inr": 7900,
+    "size": "30 ml",
+    "tier": "premium",
+    "key_ingredients": [
+      "Purified Lactic Acid (AHA)",
+      "Licorice Root",
+      "Lemongrass"
+    ],
+    "suits_conditions": [
+      "pigmentation",
+      "dryness",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "All Skin Types",
+      "Dull",
+      "Uneven"
+    ],
+    "image": "/products/prod-33.png",
+    "product_url": "https://www.nykaa.com/sunday-riley-good-genes-all-in-one-lactic-acid-treatment/p/1039824",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  },
+  {
+    "id": "prod-34",
+    "name": "10% Niacinamide Booster Concentrated Treatment",
+    "brand": "Paula's Choice",
+    "category": "treatment",
+    "price_inr": 4300,
+    "size": "20 ml",
+    "tier": "premium",
+    "key_ingredients": [
+      "Niacinamide 10%",
+      "Vitamin C (Ascorbyl Glucoside)",
+      "Licorice Extract"
+    ],
+    "suits_conditions": [
+      "pigmentation",
+      "acne",
+      "general_barrier"
+    ],
+    "skin_types": [
+      "All Skin Types"
+    ],
+    "image": "/products/prod-34.png",
+    "product_url": "https://www.nykaa.com/paula-s-choice-10percent-niacinamide-booster/p/522814",
+    "price_checked_date": "October 2026",
+    "store": "Nykaa"
+  }
+]

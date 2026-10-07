@@ -1,0 +1,293 @@
+:root {
+  /* Exact tokens from user specification */
+  --glass-bg: rgba(255, 255, 255, 0.28);
+  --glass-bg-hover: rgba(255, 255, 255, 0.38);
+  --glass-bg-strong: rgba(255, 255, 255, 0.45);
+  --glass-bg-sub: rgba(255, 255, 255, 0.22);
+  --glass-border: rgba(255, 255, 255, 0.6);
+  --glass-border-sub: rgba(255, 255, 255, 0.45);
+  --glass-border-hover: rgba(255, 255, 255, 0.92);
+  --glass-blur: 22px;
+  --glass-shadow: 0 16px 50px rgba(60, 50, 40, 0.10), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  --glass-shadow-hover: 0 24px 60px rgba(60, 50, 40, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+/* Reduce blur on mobile for performance */
+@media (max-width: 640px) {
+  :root {
+    --glass-blur: 12px;
+  }
+}
+
+/* 1. Base Glass Panel / Routine Card (~32px border radius) */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  border-radius: 2rem; /* ~32px */
+  position: relative;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              background 0.35s ease;
+  will-change: transform;
+}
+
+/* 2. Interactive Card: hover lift (-6px), border brightens, shadow deepens, sheen sweep */
+.glass-interactive {
+  cursor: pointer;
+  overflow: hidden;
+  perspective: 1000px;
+}
+
+.glass-interactive:hover {
+  transform: translateY(-6px);
+  border-color: var(--glass-border-hover);
+  box-shadow: var(--glass-shadow-hover);
+  background: var(--glass-bg-hover);
+}
+
+/* Diagonal light sheen sweep across glass on hover */
+.glass-interactive::after {
+  content: '';
+  position: absolute;
+  top: -60%;
+  left: -60%;
+  width: 220%;
+  height: 220%;
+  background: linear-gradient(
+    65deg,
+    transparent 25%,
+    rgba(255, 255, 255, 0.35) 50%,
+    transparent 75%
+  );
+  transform: translateX(-120%) rotate(25deg);
+  transition: transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.glass-interactive:hover::after {
+  transform: translateX(110%) rotate(25deg);
+}
+
+/* 3. Strong Glass (Navbar, Modals, Top Headers, Floating Overlays) */
+.glass-strong {
+  background: var(--glass-bg-strong);
+  backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 20px 50px rgba(50, 40, 30, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.85);
+}
+
+/* 4. Nested Sub-Panel (Why Prescribed, Ritual Phase footer, Sub-cards) */
+.glass-sub {
+  background: var(--glass-bg-sub);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid var(--glass-border-sub);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  border-radius: 1.25rem;
+}
+
+/* 5. Glass Chips / Pills (Category badges, Ingredients) */
+.glass-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  background: rgba(255, 255, 255, 0.42);
+  backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 2px 10px rgba(60, 50, 40, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  border-radius: 9999px;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #2A2420;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              background 0.25s ease,
+              border-color 0.25s ease,
+              box-shadow 0.25s ease;
+}
+
+.glass-chip:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.75);
+  border-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 14px rgba(60, 50, 40, 0.08), inset 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+/* Warmer Tint for Ingredients (Oat Amino Acids, Centella Asiatica, etc.) */
+.glass-chip-warm {
+  background: rgba(250, 245, 235, 0.58);
+  border: 1px solid rgba(235, 222, 198, 0.8);
+  color: #382A1B;
+}
+
+.glass-chip-warm:hover {
+  transform: scale(1.05);
+  background: rgba(255, 250, 240, 0.88);
+  border-color: rgba(215, 195, 160, 0.98);
+}
+
+/* Soft Lavender Tint for Ritual / Guidance pills */
+.glass-chip-lavender {
+  background: rgba(243, 238, 249, 0.6);
+  border: 1px solid rgba(217, 203, 235, 0.8);
+  color: #432E63;
+}
+
+.glass-chip-lavender:hover {
+  transform: scale(1.05);
+  background: rgba(248, 244, 252, 0.9);
+  border-color: rgba(197, 178, 227, 0.98);
+}
+
+/* Glass Form Inputs */
+.glass-input {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  border: 1px solid var(--glass-border);
+  box-shadow: inset 0 1px 3px rgba(60, 50, 40, 0.06);
+  color: #2A2420;
+  border-radius: 1rem;
+  transition: all 0.25s ease;
+}
+
+.glass-input:focus {
+  background: rgba(255, 255, 255, 0.72);
+  border-color: rgba(255, 255, 255, 0.95);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(197, 160, 89, 0.25);
+}
+
+/* Glass Buttons */
+.glass-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 16px rgba(60, 50, 40, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.85);
+  color: #2A2420;
+  border-radius: 9999px;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-btn:hover {
+  background: rgba(255, 255, 255, 0.78);
+  border-color: rgba(255, 255, 255, 0.95);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(60, 50, 40, 0.12), inset 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+/* Readability Tokens: Body text must stay dark (#2A2420) for WCAG AA (4.5:1) */
+.glass-body {
+  color: #2A2420;
+  line-height: 1.6;
+}
+
+.glass-muted {
+  color: #554A42; /* Darkened from light grey for crisp contrast */
+}
+
+.glass-subtle-overlay {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 0.75rem;
+  padding: 0.5rem 0.75rem;
+}
+
+/* Entrance blur-in animation */
+@keyframes blurIn {
+  from {
+    opacity: 0;
+    filter: blur(12px);
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+  }
+}
+
+.animate-blur-in {
+  animation: blurIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Ambient Background Blobs Animations */
+@keyframes driftBlob1 {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(45px, -60px) scale(1.12); }
+  66% { transform: translate(-35px, 40px) scale(0.92); }
+}
+
+@keyframes driftBlob2 {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(-50px, 50px) scale(1.08); }
+  66% { transform: translate(40px, -45px) scale(1.15); }
+}
+
+@keyframes driftBlob3 {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  50% { transform: translate(60px, 45px) scale(1.18); }
+}
+
+.animate-drift-1 {
+  animation: driftBlob1 24s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-drift-2 {
+  animation: driftBlob2 28s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-drift-3 {
+  animation: driftBlob3 32s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* Solid Fallbacks when backdrop-filter is unsupported */
+@supports not (backdrop-filter: blur(1px)) {
+  .glass {
+    background: rgba(255, 255, 255, 0.88);
+  }
+  .glass-strong {
+    background: rgba(255, 255, 255, 0.94);
+  }
+  .glass-sub {
+    background: rgba(255, 255, 255, 0.85);
+  }
+  .glass-chip {
+    background: rgba(255, 255, 255, 0.9);
+  }
+  .glass-input {
+    background: rgba(255, 255, 255, 0.92);
+  }
+  .glass-btn {
+    background: rgba(255, 255, 255, 0.92);
+  }
+}
+
+/* Accessibility: prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-drift-1,
+  .animate-drift-2,
+  .animate-drift-3,
+  .animate-blur-in {
+    animation: none !important;
+  }
+  .glass-interactive::after {
+    display: none !important;
+  }
+  .glass-interactive:hover {
+    transform: none !important;
+  }
+}

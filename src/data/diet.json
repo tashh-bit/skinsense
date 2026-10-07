@@ -1,0 +1,549 @@
+{
+  "acne": {
+    "conditionId": "acne",
+    "name": "Acne & Breakout Prone",
+    "tagline": "Regulate sebum production, balance insulin spikes, and pacify systemic inflammation.",
+    "keyNutrients": [
+      {
+        "name": "Zinc (Chelated / Bioavailable)",
+        "benefit": "Helps downregulate sebum excretion, mitigates Cutibacterium acnes colonization, and accelerates dermal wound healing.",
+        "sources": "Pumpkin seeds, soaked chickpeas, lentils, oysters, hemp seeds"
+      },
+      {
+        "name": "Omega-3 Fatty Acids (EPA/DHA)",
+        "benefit": "Inhibits leukotriene B4 and inflammatory cytokines, reducing redness and cystic swelling.",
+        "sources": "Flaxseeds, chia seeds, walnuts, wild salmon, sardines"
+      },
+      {
+        "name": "Vitamin A & Carotenoids",
+        "benefit": "Supports normal follicular keratinization, preventing dead cell cohesion and micro-comedone formation.",
+        "sources": "Sweet potatoes, carrots, spinach, methi (fenugreek) leaves"
+      },
+      {
+        "name": "Probiotics & Prebiotics",
+        "benefit": "Modulates the gut-skin axis, reducing circulating endotoxins and systemic acne flare-ups.",
+        "sources": "Probiotic curd (dahi), kefir, lacto-fermented pickles, garlic, leeks"
+      }
+    ],
+    "foodsToEat": [
+      {
+        "item": "Sprouted Moong & Chana (Sprouts)",
+        "reason": "Rich in enzymatic zinc, antioxidants, and low-glycemic plant protein that stabilizes postprandial insulin.",
+        "category": "Proteins & Legumes"
+      },
+      {
+        "item": "Probiotic Homemade Curd (Dahi) & Chaas",
+        "reason": "Provides beneficial Lactobacillus strains that calm the gut-skin axis; buttermilk is naturally cooling and light.",
+        "category": "Gut Support"
+      },
+      {
+        "item": "Raw Walnuts & Crushed Flaxseeds",
+        "reason": "High in alpha-linolenic acid (ALA) omega-3s which thin thick follicular sebum and combat inflammation.",
+        "category": "Healthy Fats"
+      },
+      {
+        "item": "Turmeric (Haldi) with Black Pepper",
+        "reason": "Curcumin delivers potent lipoxygenase and COX-2 suppression to reduce active inflammatory pustules.",
+        "category": "Herbs & Spices"
+      },
+      {
+        "item": "Dark Berries & Indian Gooseberry (Amla)",
+        "reason": "Mega-doses of natural polyphenols and vitamin C that protect sebum from lipid peroxidation.",
+        "category": "Fruits & Antioxidants"
+      },
+      {
+        "item": "Steamed Leafy Greens (Palak & Methi)",
+        "reason": "Supplies chlorophyll, folate, and magnesium to facilitate hepatic clearing of circulating metabolic byproducts.",
+        "category": "Vegetables"
+      }
+    ],
+    "foodsToLimit": [
+      {
+        "item": "High-Glycemic Sugars & Syrups",
+        "reason": "Triggers rapid insulin surges, elevating IGF-1 which stimulates sebaceous gland androgen receptors and pore blockage."
+      },
+      {
+        "item": "Refined White Flour (Maida) & Deep-Fried Snacks",
+        "reason": "Creates advanced glycation end-products (AGEs) and triggers systemic inflammatory cascades."
+      },
+      {
+        "item": "Commercial Skim Milk & Whey Protein Powders",
+        "reason": "Contains concentrated bovine hormones and IGF-1 precursors shown to exacerbate comedonal acne."
+      },
+      {
+        "item": "Excessive Packaged Chips & Trans-Fats",
+        "reason": "High omega-6 to omega-3 ratio alters sebum fatty acid composition, rendering it more comedogenic."
+      }
+    ],
+    "hydrationTip": "Drink 2.5–3 liters of water daily. Enhance with fresh mint, cucumber slices, or a squeeze of amla for antioxidant cellular hydration.",
+    "sampleMealPlan": {
+      "breakfast": {
+        "veg": "Steel-cut oatmeal prepared with almond milk, topped with 1 tbsp ground flaxseeds, chia seeds, and 1/2 cup fresh berries or stewed apple.",
+        "nonVeg": "Poached eggs (2) on sprouted grain sourdough with sliced avocado and grilled tomatoes, served with green tea."
+      },
+      "lunch": {
+        "veg": "Warm yellow moong dal, 1 bowl of lightly steamed palak (spinach) sabzi, a small portion of brown basmati rice or millet roti, and a bowl of fresh unsweetened curd.",
+        "nonVeg": "Grilled wild salmon or mackerel filet seasoned with turmeric and cumin, served with sautéed greens and warm quinoa."
+      },
+      "snack": {
+        "veg": "Sprouted moong chaat with diced cucumber, tomatoes, lemon juice, and a pinch of black salt + a tall glass of light mint buttermilk (chaas).",
+        "nonVeg": "Boiled egg whites (2) dusted with chaat masala and a handful of raw soaked walnuts + unsweetened green tea."
+      },
+      "dinner": {
+        "veg": "Tofu and vegetable stir-fry with broccoli, bell peppers, zucchini, and sesame seeds in a light ginger-garlic tamari broth.",
+        "nonVeg": "Herbed chicken breast cooked in olive oil with steamed asparagus, roast sweet potato cubes, and fresh lemon-herb dressing."
+      }
+    }
+  },
+  "eczema": {
+    "conditionId": "eczema",
+    "name": "Eczema & Atopic Dermatitis",
+    "tagline": "Strengthen the filaggrin barrier, quench mast-cell histamine reactivity, and nourish dry dermal layers.",
+    "keyNutrients": [
+      {
+        "name": "Quercetin (Bioflavonoid)",
+        "benefit": "Natural mast-cell stabilizer that dampens histamine release and reduces itch and erythema.",
+        "sources": "Red onions, capers, apples with peel, kale, blueberries"
+      },
+      {
+        "name": "Omega-3 Fatty Acids & GLA",
+        "benefit": "Rebuilds defective intercellular lipid cement and reduces trans-epidermal water loss (TEWL).",
+        "sources": "Hemp seed oil, evening primrose oil, flaxseeds, wild fatty fish"
+      },
+      {
+        "name": "Vitamin D3",
+        "benefit": "Enhances cathelicidin antimicrobial peptide expression, protecting fragile atopic skin from secondary infection.",
+        "sources": "Mushrooms exposed to UV, egg yolks, fortified oat milk, fatty fish"
+      },
+      {
+        "name": "Zinc & Silica",
+        "benefit": "Crucial cofactors for collagen synthesis and rapid re-epithelialization of cracked barriers.",
+        "sources": "Pumpkin seeds, cucumbers with skin, bamboo shoots, lentils"
+      }
+    ],
+    "foodsToEat": [
+      {
+        "item": "Golden Turmeric Broth with Ginger",
+        "reason": "Potent anti-inflammatory liquid base that calms the intestinal lining and systemic mast cells.",
+        "category": "Warm Elixirs"
+      },
+      {
+        "item": "Soaked Almonds & Walnuts",
+        "reason": "Delivers gentle vitamin E and healthy lipids to reinforce intercellular skin lamellae.",
+        "category": "Nuts & Seeds"
+      },
+      {
+        "item": "Moong Dal Khichdi with Desi Cow Ghee (Moderate)",
+        "reason": "Extremely gentle, hypoallergenic, and grounding; pure A2 ghee provides butyric acid for gut integrity.",
+        "category": "Comfort Grains"
+      },
+      {
+        "item": "Apples & Pears (Rich in Quercetin)",
+        "reason": "Provides flavonoid protection that naturally downregulates systemic itch sensations.",
+        "category": "Fruits"
+      },
+      {
+        "item": "Steamed Zucchini & Bottle Gourd (Lauki)",
+        "reason": "Ultra-gentle alkaline vegetables with high water content and zero histamine burden.",
+        "category": "Vegetables"
+      }
+    ],
+    "foodsToLimit": [
+      {
+        "item": "High-Histamine Aged Foods",
+        "reason": "Aged cheeses, cured meats, wine, and vinegars can directly provoke intense pruritus and skin itching."
+      },
+      {
+        "item": "Artificial Preservatives & Sulfites",
+        "reason": "Known triggers for atopic flare-ups and mucosal irritation."
+      },
+      {
+        "item": "Excessive Nightshades (Eggplants, Excess Green Chillies)",
+        "reason": "May heighten inflammatory alkaloid sensitivity in flare-prone individuals."
+      },
+      {
+        "item": "Ultra-Processed Bakery Items",
+        "reason": "Emulsifiers disrupt the intestinal mucosal lining, allowing antigens into systemic circulation."
+      }
+    ],
+    "hydrationTip": "Prioritize room-temperature water and soothing infusions like chamomile or fennel seed tea. Avoid piping hot liquids that dilate skin capillaries.",
+    "sampleMealPlan": {
+      "breakfast": {
+        "veg": "Warm rolled oats cooked with water or almond milk, topped with stewed sweet apple slices, cinnamon, and 1 tbsp hemp hearts.",
+        "nonVeg": "Scrambled eggs with fresh baby spinach cooked in a dash of cold-pressed coconut oil, served with sliced ripe avocado."
+      },
+      "lunch": {
+        "veg": "Nourishing moong dal khichdi prepared with carrots and bottle gourd, finished with 1/2 tsp pure A2 cow ghee and a side of fresh grated cucumber.",
+        "nonVeg": "Poached white fish or chicken breast with steamed sweet potatoes and roasted zucchini in an herb-infused bone broth."
+      },
+      "snack": {
+        "veg": "A cup of warm chamomile tea paired with a small handful of soaked, peeled almonds and pumpkin seeds.",
+        "nonVeg": "Warm clear bone broth or vegetable broth seasoned with grated ginger, turmeric, and sea salt."
+      },
+      "dinner": {
+        "veg": "Soft paneer or organic tofu sautéed with blanched green beans, carrots, and sweet potato mash.",
+        "nonVeg": "Oven-baked cod or salmon filet served with steamed broccoli florets and butternut squash puree."
+      }
+    }
+  },
+  "fungal_infection": {
+    "conditionId": "fungal_infection",
+    "name": "Fungal Infection & Malassezia / Tinea",
+    "tagline": "Starve yeast overgrowth by eliminating simple sugars while infusing natural antifungal botanicals.",
+    "keyNutrients": [
+      {
+        "name": "Caprylic & Lauric Acids",
+        "benefit": "Breaks through fungal biofilm and disrupts cell membranes of Malassezia and Candida yeasts.",
+        "sources": "Virgin unrefined coconut oil, palm kernel oil"
+      },
+      {
+        "name": "Allicin",
+        "benefit": "Potent broad-spectrum antifungal botanical compound activated upon crushing fresh raw garlic.",
+        "sources": "Freshly crushed garlic, chives, shallots"
+      },
+      {
+        "name": "L-Glutamine",
+        "benefit": "Fuel for enterocytes that seals intestinal tight junctions to block fungal translocation.",
+        "sources": "Cabbage juice, bone broth, spinach, beans"
+      },
+      {
+        "name": "Antioxidant Polyphenols",
+        "benefit": "Supports immune defense against dermatophytes and enhances skin cell turnover.",
+        "sources": "Green tea (EGCG), oregano, thyme, cloves"
+      }
+    ],
+    "foodsToEat": [
+      {
+        "item": "Crushed Fresh Garlic in Warm Meals",
+        "reason": "Allicin possesses clinically verified fungistatic activity against Malassezia and Trichophyton.",
+        "category": "Antimicrobial"
+      },
+      {
+        "item": "Virgin Coconut Oil (Moderate Cookery)",
+        "reason": "Rich in caprylic and lauric acid which naturally inhibit fungal spore germination.",
+        "category": "Healthy Fats"
+      },
+      {
+        "item": "Organic Unsweetened Probiotic Curd",
+        "reason": "Crowds out pathogenic yeasts on mucosal and digestive surfaces with competitive beneficial flora.",
+        "category": "Probiotics"
+      },
+      {
+        "item": "Fresh Oregano, Thyme & Clove Tea",
+        "reason": "Contains carvacrol and eugenol, both potent natural antifungal plant actives.",
+        "category": "Botanicals"
+      },
+      {
+        "item": "Cruciferous Vegetables (Broccoli & Cabbage)",
+        "reason": "Supplies indole-3-carbinol and glucosinolates to bolster phase II liver clearance of fungal metabolites.",
+        "category": "Vegetables"
+      }
+    ],
+    "foodsToLimit": [
+      {
+        "item": "Refined Sugars & Confectionery",
+        "reason": "Simple carbohydrates serve as the primary fuel source for rapid fungal proliferation and colonization."
+      },
+      {
+        "item": "Yeast-Risen Bread & Brewer's Yeast",
+        "reason": "Cross-reactive allergens and extraneous yeast strains that can exacerbate fungal sensitivities."
+      },
+      {
+        "item": "High-Fructose Dried Fruits",
+        "reason": "Concentrated fructose feeds intestinal and peripheral yeast populations."
+      },
+      {
+        "item": "Sweetened Bottled Beverages & Sodas",
+        "reason": "Spikes blood sugar levels, increasing glucose secretion in perspiration which feeds fungal skin microflora."
+      }
+    ],
+    "hydrationTip": "Drink 3 liters of water. Include 1–2 cups of green tea with a slice of fresh lemon, or warm water infused with crushed cloves.",
+    "sampleMealPlan": {
+      "breakfast": {
+        "veg": "Besan (chickpea flour) cheela loaded with finely chopped onions, spinach, and ajwain, cooked in virgin coconut oil with fresh mint-coriander chutney.",
+        "nonVeg": "Omelette made with 2 eggs, fresh chopped garlic, tomatoes, and parsley in coconut oil, served with green tea."
+      },
+      "lunch": {
+        "veg": "Sprouted chana and masoor dal cooked with crushed garlic and jeera, paired with steamed cauliflower and cabbage sabzi.",
+        "nonVeg": "Grilled oregano chicken breast served alongside steamed broccoli, sauteed green beans, and cauliflower rice."
+      },
+      "snack": {
+        "veg": "A bowl of plain unsweetened dahi with roasted cumin and crushed flaxseed + a cup of hot thyme-oregano tea.",
+        "nonVeg": "Roasted pumpkin seeds and walnut halves with unsweetened spiced ginger green tea."
+      },
+      "dinner": {
+        "veg": "Warm vegetable stew featuring cabbage, carrots, French beans, and tofu simmered in a coconut milk and crushed garlic broth.",
+        "nonVeg": "Steamed white fish filet with garlic-lemon drizzle, asparagus spears, and a crisp cucumber salad."
+      }
+    }
+  },
+  "pigmentation": {
+    "conditionId": "pigmentation",
+    "name": "Hyperpigmentation & Melasma",
+    "tagline": "Suppress tyrosinase activity, intercept UV-induced free radicals, and promote clean cellular turnover.",
+    "keyNutrients": [
+      {
+        "name": "Vitamin C (L-Ascorbic Acid)",
+        "benefit": "Competitively inhibits copper ions at the tyrosinase active site, reducing melanin polymerization.",
+        "sources": "Amla (Indian gooseberry), bell peppers, citrus fruits, guava, kiwi"
+      },
+      {
+        "name": "Glutathione Precursors (NAC & Glycine)",
+        "benefit": "Converts dark eumelanin into lighter pheomelanin and neutralizes photo-oxidative stress.",
+        "sources": "Asparagus, avocado, walnuts, sulphur-rich onions, garlic, eggs"
+      },
+      {
+        "name": "Niacinamide (Vitamin B3)",
+        "benefit": "Inhibits melanosome transfer from melanocytes to surrounding keratinocytes by up to 68%.",
+        "sources": "Legumes, mushrooms, sunflower seeds, green peas, poultry"
+      },
+      {
+        "name": "Lycopene & Beta-Carotene",
+        "benefit": "Internal photoprotectant that increases dermal erythema threshold against UVA/UVB rays.",
+        "sources": "Cooked tomatoes, watermelon, pink grapefruit, carrots, papaya"
+      }
+    ],
+    "foodsToEat": [
+      {
+        "item": "Fresh Indian Gooseberry (Amla) Juice or Fruit",
+        "reason": "Contains 20x more stable vitamin C than oranges, directly mitigating tyrosinase hyperactivity.",
+        "category": "Potent Vitamin C"
+      },
+      {
+        "item": "Cooked Tomato Sauce / Puree with Olive Oil",
+        "reason": "Cooking liberates bioavailable lycopene, which embeds in cell membranes to absorb solar UV radiation.",
+        "category": "Photoprotective"
+      },
+      {
+        "item": "Bright Red & Yellow Bell Peppers",
+        "reason": "Loaded with ascorbic acid, lutein, and zeaxanthin that defend against blue light and UV pigmentation.",
+        "category": "Vegetables"
+      },
+      {
+        "item": "Papaya (Ripe)",
+        "reason": "Contains natural papain enzymes and carotenoids that stimulate gentle, natural epidermal cell turnover.",
+        "category": "Enzymatic Fruits"
+      },
+      {
+        "item": "Green Tea (Matcha or Brewed)",
+        "reason": "High in epigallocatechin gallate (EGCG) which attenuates melanogenesis triggered by inflammatory sunburn.",
+        "category": "Antioxidants"
+      }
+    ],
+    "foodsToLimit": [
+      {
+        "item": "Burnt & Charred Grilled Meats",
+        "reason": "Heterocyclic amines and advanced lipoxidation end-products induce dermal pigment darkening."
+      },
+      {
+        "item": "Excessive Direct Alcohol Consumption",
+        "reason": "Depletes hepatic glutathione stores, leaving melanocytes vulnerable to oxidative hyper-reactivity."
+      },
+      {
+        "item": "Excessive Coffee on an Empty Stomach",
+        "reason": "Elevates morning cortisol levels, which can trigger hormonal melasma flare-ups along cheekbones."
+      },
+      {
+        "item": "Refined Seed Oils (Corn, Cottonseed)",
+        "reason": "Easily peroxidized under UV sunlight, creating reactive lipid fragments that stimulate melanocytes."
+      }
+    ],
+    "hydrationTip": "Infuse cold water with fresh citrus slices, amla extract, and mint leaves to continuously circulate bioflavonoids through peripheral capillaries.",
+    "sampleMealPlan": {
+      "breakfast": {
+        "veg": "Overnight oats with chia seeds, 1 shot of diluted fresh amla juice, topped with diced ripe papaya and pomegranate seeds.",
+        "nonVeg": "Whole grain toast with 2 poached eggs, sliced ripe tomatoes drizzled with extra virgin olive oil, and fresh kiwi."
+      },
+      "lunch": {
+        "veg": "Sprouted moong dal with cooked tomato-onion gravy, sautéed bell peppers and paneer cubes, served with a small bowl of quinoa or red rice.",
+        "nonVeg": "Grilled skinless chicken breast with warm spiced tomato ragout, roasted red bell peppers, and fresh mixed greens."
+      },
+      "snack": {
+        "veg": "A bowl of fresh guava or orange slices dusted with roasted cumin powder + a cup of ceremonial matcha or green tea.",
+        "nonVeg": "A handful of raw walnuts and pumpkin seeds + cold citrus-infused green tea."
+      },
+      "dinner": {
+        "veg": "Baked tofu cubes glazed in ginger-lemon tamari, served over steamed broccoli, asparagus, and carrot puree.",
+        "nonVeg": "Pan-seared salmon with lemon-herb butter, roasted asparagus, and steamed sweet potato medallions."
+      }
+    }
+  },
+  "dryness": {
+    "conditionId": "dryness",
+    "name": "Dryness & Barrier Dehydration",
+    "tagline": "Rehydrate interstitial matrices, seal in lipid reserves, and end dull flaky tightness.",
+    "keyNutrients": [
+      {
+        "name": "Ceramides & Phospholipids",
+        "benefit": "Forms the essential waterproof cellular mortar that locks moisture into the stratum corneum.",
+        "sources": "Soy lecithin, wheat germ, egg yolk, sunflower lecithin"
+      },
+      {
+        "name": "Hyaluronic Acid Precursors & Glucosamine",
+        "benefit": "Stimulates glycosaminoglycan synthesis in dermal fibroblasts to retain 1,000x its weight in water.",
+        "sources": "Bone broth, cartilage extracts, root vegetables, citrus"
+      },
+      {
+        "name": "Vitamin E (Alpha-Tocopherol)",
+        "benefit": "Fat-soluble membrane antioxidant that shields intracellular lipids from desiccation.",
+        "sources": "Almonds, sunflower seeds, avocado, cold-pressed olive oil"
+      },
+      {
+        "name": "Electrolytes (Potassium & Magnesium)",
+        "benefit": "Regulates aquaporin water channels across epidermal keratinocyte membranes.",
+        "sources": "Coconut water, bananas, leafy greens, pumpkin seeds"
+      }
+    ],
+    "foodsToEat": [
+      {
+        "item": "Tender Coconut Water",
+        "reason": "Nature's optimal electrolyte balance (potassium, sodium, magnesium) that restores deep intracellular hydration.",
+        "category": "Electrolyte Elixir"
+      },
+      {
+        "item": "Ripe Hass Avocado & Cold-Pressed Olive Oil",
+        "reason": "Packed with monounsaturated oleic acid that restores soft, supple flexibility to rough stratum corneum.",
+        "category": "Lipid Mortar"
+      },
+      {
+        "item": "Soaked Almonds & Chia Seed Pudding",
+        "reason": "Supplies hydrophilic soluble fiber that slowly releases hydration alongside fat-soluble vitamin E.",
+        "category": "Moisture Binders"
+      },
+      {
+        "item": "Warm Dal with a Touch of Ghee",
+        "reason": "Ayurvedically recognized for lubricating internal tissues (Snehana) and smoothing dry rough skin.",
+        "category": "Nourishing Comfort"
+      },
+      {
+        "item": "Water-Dense Fruits (Cucumber, Watermelon, Sweet Oranges)",
+        "reason": "Delivers structured gel-water bound with natural trace minerals for enhanced cellular uptake.",
+        "category": "Structured Water"
+      }
+    ],
+    "foodsToLimit": [
+      {
+        "item": "Excess Caffeine & Diuretic Energy Drinks",
+        "reason": "Accelerates fluid excretion through kidneys, exacerbating trans-epidermal water deficit."
+      },
+      {
+        "item": "High-Sodium Packaged Soups & Chips",
+        "reason": "Distorts cellular osmotic pressure, pulling hydration away from outer epidermal skin layers."
+      },
+      {
+        "item": "Excess Alcohol & Cocktails",
+        "reason": "Depresses antidiuretic hormone (vasopressin), inducing severe morning skin dullness and fine dehydration lines."
+      },
+      {
+        "item": "Strict Fat-Free Diets",
+        "reason": "Starves the skin of critical linoleic acid and cholesterol necessary for lamellar lipid synthesis."
+      }
+    ],
+    "hydrationTip": "Aim for 8–10 glasses of mineralized water. Sip continuously throughout the day rather than chugging large amounts at once. Start morning with warm water + pinch of pink Himalayan salt.",
+    "sampleMealPlan": {
+      "breakfast": {
+        "veg": "Warm chia seed and rolled oats porridge made with creamy coconut milk, topped with sliced banana, soaked almonds, and raw honey.",
+        "nonVeg": "Avocado toast on whole grain bread topped with two sunny-side eggs drizzled with cold-pressed olive oil and chia seeds."
+      },
+      "lunch": {
+        "veg": "Comforting yellow dal tadka with 1 tsp A2 ghee, soft steamed basmati rice, sautéed zucchini in olive oil, and sliced fresh cucumbers.",
+        "nonVeg": "Hearty chicken bone broth with tender chicken chunks, carrots, celery, sweet potato, and fresh parsley."
+      },
+      "snack": {
+        "veg": "Fresh tender coconut water paired with a small bowl of mixed soaked nuts (walnuts, almonds, cashews) and sunflower seeds.",
+        "nonVeg": "A cup of warm bone broth or golden milk made with almond milk, turmeric, and 1/2 tsp ghee."
+      },
+      "dinner": {
+        "veg": "Creamy coconut and butternut squash curry with paneer or tofu, served over warm brown rice or soft whole wheat phulka.",
+        "nonVeg": "Baked salmon with creamy dill sauce, roasted butternut squash, and steamed baby spinach."
+      }
+    }
+  },
+  "general_barrier": {
+    "conditionId": "general_barrier",
+    "name": "General Barrier Health & Radiance",
+    "tagline": "Sustain epidermal equilibrium, boost cellular longevity, and cultivate an effortless inner luminescence.",
+    "keyNutrients": [
+      {
+        "name": "Antioxidant Polyphenols",
+        "benefit": "Neutralizes ambient particulate pollution and UV stress to maintain youthful collagen matrices.",
+        "sources": "Pomegranate, berries, dark chocolate (85%+), green tea, turmeric"
+      },
+      {
+        "name": "Complete Plant & Marine Proteins",
+        "benefit": "Supplies essential amino acids (proline, lysine, glycine) needed for continuous dermal protein synthesis.",
+        "sources": "Moong dal, eggs, fish, tofu, edamame, hemp seeds"
+      },
+      {
+        "name": "Carotenoids & Vitamin E",
+        "benefit": "Enriches the lipid mantle to preserve natural radiance and smooth skin micro-relief.",
+        "sources": "Carrots, sweet potatoes, almonds, spinach, sunflower seeds"
+      },
+      {
+        "name": "Zinc & Selenium",
+        "benefit": "Essential trace minerals for antioxidant enzyme systems (glutathione peroxidase, superoxide dismutase).",
+        "sources": "Brazil nuts (1 daily), pumpkin seeds, whole grains"
+      }
+    ],
+    "foodsToEat": [
+      {
+        "item": "Pomegranate Seeds & Fresh Citrus",
+        "reason": "Packed with ellagic acid and punicalagins that prevent collagen degradation and enhance micro-circulation.",
+        "category": "Vitality Fruits"
+      },
+      {
+        "item": "Sprouted Moong & Dal Khichdi",
+        "reason": "A complete, easily digestible protein and fiber source that nourishes both microbiome and skin.",
+        "category": "Balance Grains"
+      },
+      {
+        "item": "Homemade Dahi & Chaas with Mint",
+        "reason": "Cultivates diverse gut microbiotics for clear, glowing complexions and reduced inflammation.",
+        "category": "Gut Health"
+      },
+      {
+        "item": "Soaked Almonds & Walnuts",
+        "reason": "Delivers daily essential fatty acids and vitamin E to nourish cell membranes.",
+        "category": "Nuts & Seeds"
+      },
+      {
+        "item": "Rainbow Salad (Carrot, Beetroot, Cucumber)",
+        "reason": "Supplies a diverse spectrum of phytochemicals for multifaceted cellular antioxidant defense.",
+        "category": "Vegetables"
+      }
+    ],
+    "foodsToLimit": [
+      {
+        "item": "Excess Added Table Sugars",
+        "reason": "Accelerates skin stiffening and collagen glycation through AGE formation."
+      },
+      {
+        "item": "Deep-Fried Street Food & Trans Fats",
+        "reason": "Creates oxidative damage that dulls natural dermal translucency."
+      },
+      {
+        "item": "Excess Packaged Sodium",
+        "reason": "Causes fluid retention and facial puffiness while dehydrating deep skin tissues."
+      }
+    ],
+    "hydrationTip": "Maintain 8 glasses of pure water every day. Supplement with coconut water or warm herbal tea for sustained cellular vitality.",
+    "sampleMealPlan": {
+      "breakfast": {
+        "veg": "Warm oats bowl cooked in almond milk with sliced fresh figs or apples, 1 tbsp soaked chia seeds, and chopped walnuts.",
+        "nonVeg": "Poached eggs on toasted sourdough with sautéed mushrooms, baby spinach, and cherry tomatoes."
+      },
+      "lunch": {
+        "veg": "Mixed vegetable dal, 2 multigrain rotis, fresh cucumber-tomato salad with lemon dressing, and a bowl of fresh curd.",
+        "nonVeg": "Grilled lemon herb chicken breast with roasted sweet potatoes, steamed green beans, and mixed baby greens."
+      },
+      "snack": {
+        "veg": "Chilled buttermilk (chaas) seasoned with roasted cumin and fresh coriander + a small handful of roasted pumpkin seeds.",
+        "nonVeg": "Hard-boiled egg with a sprinkle of pepper + a tall glass of coconut water."
+      },
+      "dinner": {
+        "veg": "Paneer or tofu tikka with roasted bell peppers, served with a warm quinoa and sautéed vegetable bowl.",
+        "nonVeg": "Pan-seared sea bass or salmon filet with steamed asparagus, wild rice, and lemon-dill vinaigrette."
+      }
+    }
+  }
+}
